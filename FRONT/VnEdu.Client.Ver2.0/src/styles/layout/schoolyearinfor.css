@@ -1,0 +1,139 @@
+.t-schoolyearinfor {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #fff;
+    border-radius: 4px;
+    z-index: 3;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.box-schoolyearinfor-top {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+.box-x {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-x:hover {
+    background-color: #b8bcc3;
+}
+
+.icon-x {
+    width: 16px;
+    height: 16px;
+    background-image: url(../../assets/icon.svg);
+    background-position: -1176px -360px;
+}
+
+.schoolyearinfor-name {
+    width: 150px;
+    line-height: 40px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #488DC7;
+}
+
+.past-2 {
+    width: 160px;
+}
+
+.schoolyearinfor-input {
+    width: calc(100% - 150px);
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 0px 16px;
+    box-sizing: border-box;
+}
+
+.schoolyearinfor-input:focus {
+    border: 1px solid #0073e6;
+}
+
+.box-schoolyearinfor-bottom {
+    margin-top: 32px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-schoolyearinfor-cancle {
+    width: 50px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #488DC7;
+}
+
+.box-schoolyearinfor-cancle:hover {
+    background-color: #b8bcc3;
+}
+
+.box-btn-schoolyearinfor {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-schoolyearinfor-save {
+    width: 50px;
+    height: 30px;
+    border-radius: 3px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+    background-color: #2ca01c;
+}
+
+.box-schoolyearinfor-save:hover {
+    background-color: #33d01e;
+}
+
+.box-schoolyearinfor-saveandinsert {
+    min-width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+    background-color: #2ca01c;
+    margin-left: 8px;
+}
+
+.box-schoolyearinfor-saveandinsert:hover {
+    background-color: #33d01e;
+}

@@ -1,0 +1,24 @@
+.t-student-class {
+    height: 100%;
+}
+
+.bottom-studentclass {
+    height: calc(100% - 148px);
+    width: 100%;
+}
+
+.table-studet-class {
+    height: calc(100% - 96px);
+}
+
+.btn-insert-box {
+    margin: 0px 32px;
+}
+
+.box-student-class-combobox {
+    width: 380px;
+}
+
+.paging-student-class {
+    margin-top: 8px;
+}

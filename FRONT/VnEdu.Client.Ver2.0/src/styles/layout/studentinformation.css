@@ -1,0 +1,35 @@
+.box-infor {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 32px;
+    box-sizing: border-box;
+    position: relative;
+    animation: box-infor 1s linear;
+}
+
+.header-infor {
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #488DC7;
+    text-align: center;
+    line-height: 40px;
+}
+
+.box-combobox-infor {
+    width: 332px;
+}
+
+@keyframes box-infor {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

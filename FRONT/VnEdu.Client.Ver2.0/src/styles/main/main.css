@@ -1,0 +1,62 @@
+@import url(../layout/login.css);
+@import url(../layout/formwaning.css);
+@import url(../layout/menu.css);
+@import url(../layout/content.css);
+@import url(../layout/header.css);
+@import url(../layout/center.css);
+@import url(../layout/overview.css);
+@import url(../layout/changepassword.css);
+@import url(../layout/studentinformation.css);
+@import url(../layout/combobox.css);
+@import url(../layout/scorelookup.css);
+@import url(../layout/toastmessage.css);
+@import url(../layout/schoolyear.css);
+@import url(../layout/schoolyearinfor.css);
+@import url(../layout/deleteschoolyear.css);
+@import url(../layout/user.css);
+@import url(../layout/student.css);
+@import url(../layout/studentinfor.css);
+@import url(../layout/studentclass.css);
+@import url(../layout/paging.css);
+body {
+    margin: 0px;
+    font-family: notosans;
+}
+
+.t-main {
+    min-width: 1300px;
+    display: flex;
+    flex-direction: row;
+}
+
+@font-face {
+    font-family: notosans;
+    src: url(../../assets/fonts/notosans-regular.2cb88a13.woff2);
+}
+
+@font-face {
+    font-family: notosans-Bold;
+    src: url(../../assets/fonts/notosans-bold.3ede5aff.woff2);
+}
+
+@font-face {
+    font-family: notosans-Italic;
+    src: url(../../assets/fonts/notosans-italic.1c1aaac9.woff2);
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.type-10 {
+    height: 200px;
+    z-index: 3;
+}

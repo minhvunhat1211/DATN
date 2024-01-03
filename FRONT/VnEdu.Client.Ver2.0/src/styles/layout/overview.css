@@ -1,0 +1,73 @@
+.t-overview {
+    height: 150px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    animation: box-overview 1s linear;
+}
+
+.box-overview {
+    display: flex;
+    width: 200px;
+    padding: 16px;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.grade {
+    background-color: #17A2B7;
+}
+
+.class {
+    background-color: #27A844;
+}
+
+.student {
+    background-color: #FEC107;
+}
+
+.subject {
+    background-color: #DC3546;
+}
+
+.box-name-overview {
+    width: 152px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-name-overview {
+    height: 30px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.bottom-name-overview {
+    height: 30px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.box-icon-overview {
+    width: 48px;
+    height: 48px;
+    background-image: url(../../assets/icon.svg);
+    background-position: -672px -1236px;
+}
+
+@keyframes box-overview {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

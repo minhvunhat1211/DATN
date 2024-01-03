@@ -1,0 +1,121 @@
+.t-menu {
+    width: 200px;
+    height: 100vh;
+    background-color: #393A3D;
+}
+
+.menu-top {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    padding: 0px 16px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #65676B;
+}
+
+.top-logo {
+    width: 32px;
+    height: 32px;
+    background-image: url(../../assets/images/vnedu-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.top-name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menu-bottom {
+    width: 100%;
+    height: calc(100% - 48px);
+    overflow: auto;
+}
+
+.bottom {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bottom:hover {
+    background-color: #8DCED4;
+}
+
+.bottom-logo {
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+    background-image: url(../../assets/icon2.svg);
+    margin-right: 10px;
+}
+
+.dashboard {
+    background-position: -336px -384px;
+}
+
+.student-information {
+    background-position: -256px -384px;
+}
+
+.point-lookup {
+    background-position: -304px -384px;
+}
+
+.forgot-password {
+    background-position: -288px -384px;
+}
+
+.logout {
+    background-position: -351px -384px;
+}
+
+.general-management {
+    background-position: -272px -384px;
+}
+
+.box-menu-bottom {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-option-general {
+    position: fixed;
+    width: 220px;
+    left: 200px;
+    top: 88px;
+    background-color: #393A3D;
+    margin-left: 1px;
+    z-index: 3;
+}
+
+.bottom-name {
+    font-size: 13px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.box-left {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon-select {
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+    background-image: url(../../assets/icon.svg);
+    background-position: -896px -360px;
+}
+
+.router-link-active>.bottom {
+    background-color: #0addf0;
+}

@@ -1,0 +1,1673 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VnEdu.Api</name>
+    </assembly>
+    <members>
+        <member name="T:VnEdu.Api.Contracts.Class.Request.ClassCreate">
+            <summary>
+            Information of ClassCreate
+            CreatedBy: MinhVN(21/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Class.Request.ClassCreate.ClassName">
+            <summary>
+            ClassName
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Class.Request.ClassCreate.TeacherId">
+            <summary>
+            TeacherId
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Class.Request.ClassCreate.Grade">
+            <summary>
+            Grade
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Class.Request.ClassCreate.Room">
+            <summary>
+            Room
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Class.Request.ClassCreate.SchoolYearId">
+            <summary>
+            SchoolYearId
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.Class.Request.ClassUpdate">
+            <summary>
+            Information of ClassUpdate
+            CreatedBy: MinhVN(21/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Class.Request.ClassUpdate.ClassName">
+            <summary>
+            ClassName
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Class.Request.ClassUpdate.TeacherId">
+            <summary>
+            TeacherId
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Class.Request.ClassUpdate.Grade">
+            <summary>
+            Grade
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Class.Request.ClassUpdate.Room">
+            <summary>
+            Room
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Class.Request.ClassUpdate.SchoolYearId">
+            <summary>
+            SchoolYearId
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.Decentralizaion.Request.DecentralizaionCreate">
+            <summary>
+            Information of DecentralizaionCreate
+            CreatedBy: MinhVN(22/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Decentralizaion.Request.DecentralizaionCreate.DecentralizationName">
+            <summary>
+            DecentralizationName
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Decentralizaion.Request.DecentralizaionCreate.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.Decentralizaion.Request.DecentralizaionUpdate">
+            <summary>
+            Information of DecentralizaionUpdate
+            CreatedBy: MinhVN(22/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Decentralizaion.Request.DecentralizaionUpdate.DecentralizationName">
+            <summary>
+            DecentralizationName
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Decentralizaion.Request.DecentralizaionUpdate.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.DetailedTableScore.Request.DetailedTableScoreUpdate">
+            <summary>
+            Information of DetailedTableScoreUpdate
+            CreatedBy: MinhVN(23/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.DetailedTableScore.Request.DetailedTableScoreUpdate.FirstOralScore">
+            <summary>
+            FirstOralScore
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.DetailedTableScore.Request.DetailedTableScoreUpdate.SecondOralScore">
+            <summary>
+            SecondOralScore
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.DetailedTableScore.Request.DetailedTableScoreUpdate.ThirdOralScore">
+            <summary>
+            ThirdOralScore
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.DetailedTableScore.Request.DetailedTableScoreUpdate.First15minutesScore">
+            <summary>
+            First15minutesScore
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.DetailedTableScore.Request.DetailedTableScoreUpdate.Second15minutesScore">
+            <summary>
+            Second15minutesScore
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.DetailedTableScore.Request.DetailedTableScoreUpdate.Third15minutesScore">
+            <summary>
+            Third15minutesScore
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.DetailedTableScore.Request.DetailedTableScoreUpdate.OnePeriodScore">
+            <summary>
+            OnePeriodScore
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.DetailedTableScore.Request.DetailedTableScoreUpdate.FinalScore">
+            <summary>
+            FinalScore
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.SchoolYear.Request.SchoolYearCreate">
+            <summary>
+            InFormation of SchoolYearCreate
+            CreatedBy: MinhVN(23/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.SchoolYear.Request.SchoolYearCreate.SchoolYearName">
+            <summary>
+            SchoolYearName
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.SchoolYear.Request.SchoolYearCreate.DateStart">
+            <summary>
+            DateStart
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.SchoolYear.Request.SchoolYearCreate.DateEnd">
+            <summary>
+            DateEnd
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.SchoolYear.Request.SchoolYearUpdate">
+            <summary>
+            InFormation of SchoolYearUpdate
+            CreatedBy: MinhVN(23/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.SchoolYear.Request.SchoolYearUpdate.SchoolYearName">
+            <summary>
+            SchoolYearName
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.SchoolYear.Request.SchoolYearUpdate.DateStart">
+            <summary>
+            DateStart
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.SchoolYear.Request.SchoolYearUpdate.DateEnd">
+            <summary>
+            DateEnd
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.Semester.Request.SemesterCreate">
+            <summary>
+            Information of SemesterCreate
+            CreatedBy: MinhVN(23/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Semester.Request.SemesterCreate.SemesterName">
+            <summary>
+            SemesterName
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Semester.Request.SemesterCreate.DateStart">
+            <summary>
+            DateStart
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Semester.Request.SemesterCreate.DateEnd">
+            <summary>
+            DateEnd
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Semester.Request.SemesterCreate.SchoolYearId">
+            <summary>
+            SchoolYearId
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.Semester.Request.SemesterUpdate">
+            <summary>
+            Information of SemesterUpdate
+            CreatedBy: MinhVN(23/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Semester.Request.SemesterUpdate.SemesterName">
+            <summary>
+            SemesterName
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Semester.Request.SemesterUpdate.DateStart">
+            <summary>
+            DateStart
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Semester.Request.SemesterUpdate.DateEnd">
+            <summary>
+            DateEnd
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Semester.Request.SemesterUpdate.SchoolYearId">
+            <summary>
+            SchoolYearId
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.Student.Request.StudentCreate">
+            <summary>
+            Information of StudentCreate
+            CreatedBy: MinhVN(24/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentCreate.StudentCode">
+            <summary>
+            StudentCode
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentCreate.FullName">
+            <summary>
+            FullName
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentCreate.Gender">
+            <summary>
+            Gender
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentCreate.DateOfBirth">
+            <summary>
+            DateOfBirth
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentCreate.PhoneNumber">
+            <summary>
+            PhoneNumber
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentCreate.Email">
+            <summary>
+            Email
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentCreate.NumberCard">
+            <summary>
+            NumberCard
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentCreate.AddressCurent">
+            <summary>
+            AddressCurent
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentCreate.Address">
+            <summary>
+            Address
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.Student.Request.StudentUpdate">
+            <summary>
+            Information of StudentUpdate
+            CreatedBy: MinhVN(24/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentUpdate.StudentCode">
+            <summary>
+            StudentCode
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentUpdate.FullName">
+            <summary>
+            FullName
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentUpdate.Gender">
+            <summary>
+            Gender
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentUpdate.DateOfBirth">
+            <summary>
+            DateOfBirth
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentUpdate.PhoneNumber">
+            <summary>
+            PhoneNumber
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentUpdate.Email">
+            <summary>
+            Email
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentUpdate.NumberCard">
+            <summary>
+            NumberCard
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentUpdate.AddressCurent">
+            <summary>
+            AddressCurent
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Student.Request.StudentUpdate.Address">
+            <summary>
+            Address
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.Subject.Request.SubjectCreate">
+            <summary>
+            Information of SubjectCreate
+            CreatedBy: MinhVN(23/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Subject.Request.SubjectCreate.SubjectName">
+            <summary>
+            SubjectName
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Subject.Request.SubjectCreate.PeriodsPerYear">
+            <summary>
+            PeriodsPerYear
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Subject.Request.SubjectCreate.Credit">
+            <summary>
+            Credit
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.Subject.Request.SubjectUpdate">
+            <summary>
+            Information of SubjectUpdate
+            CreatedBy: MinhVN(23/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Subject.Request.SubjectUpdate.SubjectName">
+            <summary>
+            SubjectName
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Subject.Request.SubjectUpdate.PeriodsPerYear">
+            <summary>
+            PeriodsPerYear
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Subject.Request.SubjectUpdate.Credit">
+            <summary>
+            Credit
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.Teacher.Request.TeacherCreate">
+            <summary>
+            Information of TeacherCreate
+            CreatedBy: MinhVN(24/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherCreate.TeacherCode">
+            <summary>
+            TeacherCode
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherCreate.FullName">
+            <summary>
+            FullName
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherCreate.Gender">
+            <summary>
+            Gender
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherCreate.DateOfBirth">
+            <summary>
+            DateOfBirth
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherCreate.PhoneNumber">
+            <summary>
+            PhoneNumber
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherCreate.Email">
+            <summary>
+            Email
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherCreate.NumberCard">
+            <summary>
+            NumberCard
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherCreate.AddressCurent">
+            <summary>
+            AddressCurent
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherCreate.Address">
+            <summary>
+            Address
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.Teacher.Request.TeacherUpdate">
+            <summary>
+            Information of TeacherUpdate
+            CreatedBy: MinhVN(24/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherUpdate.TeacherCode">
+            <summary>
+            TeacherCode
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherUpdate.FullName">
+            <summary>
+            FullName
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherUpdate.Gender">
+            <summary>
+            Gender
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherUpdate.DateOfBirth">
+            <summary>
+            DateOfBirth
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherUpdate.PhoneNumber">
+            <summary>
+            PhoneNumber
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherUpdate.Email">
+            <summary>
+            Email
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherUpdate.NumberCard">
+            <summary>
+            NumberCard
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherUpdate.AddressCurent">
+            <summary>
+            AddressCurent
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.Teacher.Request.TeacherUpdate.Address">
+            <summary>
+            Address
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.User.Request.UserCreate">
+            <summary>
+            Information of UserCreate
+            CreatedBy: MinhVN(22/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.User.Request.UserCreate.UserName">
+            <summary>
+            UserName
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.User.Request.UserCreate.PhoneNumber">
+            <summary>
+            PhoneNumber
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.User.Request.UserCreate.Email">
+            <summary>
+            Email
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.User.Request.UserCreate.DecentralizationId">
+            <summary>
+            DecentralizationId
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.User.Request.UserEmailPassword">
+            <summary>
+            Information of UserEmailPassword
+            CreatedBy: MinhVN(22/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.User.Request.UserEmailPassword.Email">
+            <summary>
+            Email
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.User.Request.UserEmailPassword.Password">
+            <summary>
+            Password
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.User.Request.UserPhoneNumberPassword">
+            <summary>
+            Information of UserPhoneNumberPassword
+            CreatedBy: MinhVN(22/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.User.Request.UserPhoneNumberPassword.PhoneNumber">
+            <summary>
+            PhoneNumber
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.User.Request.UserPhoneNumberPassword.Password">
+            <summary>
+            Password
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.User.Request.UserUpdate">
+            <summary>
+            Information of UserUpdate
+            CreatedBy: MinhVN(22/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.User.Request.UserUpdate.UserName">
+            <summary>
+            UserName
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.User.Request.UserUpdate.PhoneNumber">
+            <summary>
+            PhoneNumber
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.User.Request.UserUpdate.Email">
+            <summary>
+            Email
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.User.Request.UserUpdate.DecentralizationId">
+            <summary>
+            DecentralizationId
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Contracts.User.Request.UserUpdatePassword">
+            <summary>
+            Information of UserUpdatePassword
+            CreatedBy: MinhVN(22/12/2022)
+            </summary>
+        </member>
+        <member name="P:VnEdu.Api.Contracts.User.Request.UserUpdatePassword.Password">
+            <summary>
+            Password
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Controllers.AuthenticationsController">
+            <summary>
+            Information of AuthenticationsController
+            CreatedBy: MinhVN(26/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.AuthenticationsController.#ctor(VnEdu.Core.Interfaces.IRepositories.IUserRepository,VnEdu.Core.Interfaces.IServices.IUserService)">
+            <summary>
+            AuthenticationsController
+            </summary>
+            <param name="userRepository">userRepository</param>
+            <param name="userService">userService</param>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.AuthenticationsController.LoginForPhoneNumber(VnEdu.Api.Contracts.User.Request.UserPhoneNumberPassword)">
+            <summary>
+            LoginForPhoneNumber
+            </summary>
+            <param name="userPhoneNumberPassword">UserPhoneNumberPassword</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(26/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.AuthenticationsController.LoginForEmail(VnEdu.Api.Contracts.User.Request.UserEmailPassword)">
+            <summary>
+            LoginForEmail
+            </summary>
+            <param name="userEmailPassword">UserEmailPassword</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(26/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.AuthenticationsController.CreateUser(VnEdu.Api.Contracts.User.Request.UserCreate)">
+            <summary>
+            CreateUser
+            </summary>
+            <param name="userCreate">User</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(26/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.AuthenticationsController.SendOTPByEmail(System.String)">
+            <summary>
+            SendOTPByEmail
+            </summary>
+            <param name="email">Email</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(13/01/2023)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.AuthenticationsController.VerifyOTP(System.String,System.String)">
+            <summary>
+            VerifyOTP
+            </summary>
+            <param name="email">Email</param>
+            <param name="codeOTP">CodeOTP</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(13/01/2023)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.AuthenticationsController.ChangePasswordNew(System.String,VnEdu.Api.Contracts.User.Request.UserUpdatePassword)">
+            <summary>
+            ChangePasswordNew
+            </summary>
+            <param name="email">Email</param>
+            <param name="userUpdatePassword">UserUpdatePassword</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(15/01/2023)
+        </member>
+        <member name="T:VnEdu.Api.Controllers.ClasssController">
+            <summary>
+            Information of ClasssController
+            CreatedBy: MinhVN(21/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.ClasssController.#ctor(VnEdu.Core.Interfaces.IRepositories.IClassRepository,VnEdu.Core.Interfaces.IServices.IClassService)">
+            <summary>
+            ClasssController
+            </summary>
+            <param name="classRepository">classRepository</param>
+            <param name="classService">classService</param>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.ClasssController.GetAllClasss">
+            <summary>
+            GetAllClasss
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(21/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.ClasssController.GetPagingClass(System.String,System.Int32,System.Int32)">
+            <summary>
+            GetPagingClass
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(22/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.ClasssController.GetClassById(System.Int32)">
+            <summary>
+            GetClassById
+            </summary>
+            <param name="id">Id</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(21/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.ClasssController.GetClassBySchoolYearId(System.Int32)">
+            <summary>
+            GetClassBySchoolYearId
+            </summary>
+            <param name="schoolYearId">SchoolYearId</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(26/03/2023)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.ClasssController.CreateClass(VnEdu.Api.Contracts.Class.Request.ClassCreate)">
+            <summary>
+            CreateClass
+            </summary>
+            <param name="classCreate">Class</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(21/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.ClasssController.UpdateClass(System.Int32,VnEdu.Api.Contracts.Class.Request.ClassUpdate)">
+            <summary>
+            UpdateClass
+            </summary>
+            <param name="id">Id</param>
+            <param name="classUpdate">Class</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(21/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.ClasssController.DeleteClass(System.Int32)">
+            <summary>
+            DeleteClass
+            </summary>
+            <param name="id">Id</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(21/12/2022)
+        </member>
+        <member name="T:VnEdu.Api.Controllers.DecentralizationsController">
+            <summary>
+            Information of DecentralizationsController
+            CreatedBy: MinhVN(22/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.DecentralizationsController.#ctor(VnEdu.Core.Interfaces.IRepositories.IDecentralizationRepository,VnEdu.Core.Interfaces.IServices.IDecentralizationService)">
+            <summary>
+            DecentralizationsController
+            </summary>
+            <param name="decentralizationRepository">decentralizationRepository</param>
+            <param name="decentralizationService">decentralizationService</param>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.DecentralizationsController.GetAllDecentralizaions">
+            <summary>
+            GetAllDecentralizaions
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(22/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.DecentralizationsController.GetPagingDecentralization(System.String,System.Int32,System.Int32)">
+            <summary>
+            GetPagingDecentralization
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(22/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.DecentralizationsController.GetDecentralizaionById(System.Int32)">
+            <summary>
+            GetDecentralizaionById
+            </summary>
+            <param name="id">Id</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(22/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.DecentralizationsController.CreateDecentralizaion(VnEdu.Api.Contracts.Decentralizaion.Request.DecentralizaionCreate)">
+            <summary>
+            CreateDecentralizaion
+            </summary>
+            <param name="decentralizaionCreate">Decentralization</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(22/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.DecentralizationsController.UpdateDecentralization(System.Int32,VnEdu.Api.Contracts.Decentralizaion.Request.DecentralizaionUpdate)">
+            <summary>
+            UpdateDecentralization
+            </summary>
+            <param name="id">Id</param>
+            <param name="decentralizaionUpdate">Decentralization</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(22/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.DecentralizationsController.DeleteDecentralization(System.Int32)">
+            <summary>
+            DeleteDecentralization
+            </summary>
+            <param name="id">Id</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(22/12/2022)
+        </member>
+        <member name="T:VnEdu.Api.Controllers.DetailedTableScoresController">
+            <summary>
+            Information of DetailedTableScoresController
+            CreatedBy: MinhVN(23/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.DetailedTableScoresController.#ctor(VnEdu.Core.Interfaces.IRepositories.IDetailedTableScoreRepository,VnEdu.Core.Interfaces.IServices.IDetailedTableScoreService)">
+            <summary>
+            DetailedTableScoresController
+            </summary>
+            <param name="detailedTableScoreRepository">detailedTableScoreRepository</param>
+            <param name="detailedTableScoreService">detailedTableScoreService</param>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.DetailedTableScoresController.GetDetailedTableScoreById(System.Int32)">
+            <summary>
+            GetDetailedTableScoreById
+            </summary>
+            <param name="id">Id</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.DetailedTableScoresController.UpdateDetailedTableScore(System.Int32,VnEdu.Api.Contracts.DetailedTableScore.Request.DetailedTableScoreUpdate)">
+            <summary>
+            UpdateDetailedTableScore
+            </summary>
+            <param name="id">Id</param>
+            <param name="detailedTableScoreUpdate">DetailedTableScore</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="T:VnEdu.Api.Controllers.SchoolYearsController">
+            <summary>
+            Information of SchoolYearsController
+            CreatedBy: MinhVN(23/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SchoolYearsController.#ctor(VnEdu.Core.Interfaces.IRepositories.ISchoolYearRepository,VnEdu.Core.Interfaces.IServices.ISchoolYearService)">
+            <summary>
+            SchoolYearsController
+            </summary>
+            <param name="schoolYearRepository">schoolYearRepository</param>
+            <param name="schoolYearService">schoolYearService</param>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SchoolYearsController.GetAllSchoolYears">
+            <summary>
+            GetAllSchoolYears
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SchoolYearsController.GetPagingSchoolYear(System.String,System.Int32,System.Int32)">
+            <summary>
+            GetPagingSchoolYear
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SchoolYearsController.GetSchoolYearById(System.Int32)">
+            <summary>
+            GetSchoolYearById
+            </summary>
+            <param name="id">Id</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SchoolYearsController.CreateSchoolYear(VnEdu.Api.Contracts.SchoolYear.Request.SchoolYearCreate)">
+            <summary>
+            CreateSchoolYear
+            </summary>
+            <param name="schoolYearCreate">SchoolYear</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SchoolYearsController.UpdateSchoolYear(System.Int32,VnEdu.Api.Contracts.SchoolYear.Request.SchoolYearUpdate)">
+            <summary>
+            UpdateSchoolYear
+            </summary>
+            <param name="id">Id</param>
+            <param name="schoolYearUpdate">SchoolYear</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SchoolYearsController.DeleteSchoolYear(System.Int32)">
+            <summary>
+            DeleteSchoolYear
+            </summary>
+            <param name="id">Id</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(22/12/2022)
+        </member>
+        <member name="T:VnEdu.Api.Controllers.SemestersController">
+            <summary>
+            Information of SemestersController
+            CreatedBy: MinhVN(23/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SemestersController.#ctor(VnEdu.Core.Interfaces.IRepositories.ISemesterRepository,VnEdu.Core.Interfaces.IServices.ISemesterService)">
+            <summary>
+            SemestersController
+            </summary>
+            <param name="semesterRepository">semesterRepository</param>
+            <param name="semesterService">semesterService</param>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SemestersController.GetAllSemesters">
+            <summary>
+            GetAllSemesters
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SemestersController.GetPagingSemester(System.String,System.Int32,System.Int32)">
+            <summary>
+            GetPagingSemester
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SemestersController.GetSemesterById(System.Int32)">
+            <summary>
+            GetSemesterById
+            </summary>
+            <param name="id">Id</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SemestersController.GetSemesterBySchoolYearId(System.Int32)">
+            <summary>
+            GetSemesterBySchoolYearId
+            </summary>
+            <param name="schoolYearId">SchoolYearId</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(26/03/2023)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SemestersController.CreateSemester(VnEdu.Api.Contracts.Semester.Request.SemesterCreate)">
+            <summary>
+            CreateSemester
+            </summary>
+            <param name="semesterCreate">Semester</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SemestersController.UpdateSemester(System.Int32,VnEdu.Api.Contracts.Semester.Request.SemesterUpdate)">
+            <summary>
+            UpdateSemester
+            </summary>
+            <param name="id">Id</param>
+            <param name="semesterUpdate">Semester</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SemestersController.DeleteSemester(System.Int32)">
+            <summary>
+            DeleteSemester
+            </summary>
+            <param name="id">Id</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(22/12/2022)
+        </member>
+        <member name="T:VnEdu.Api.Controllers.StudentsController">
+            <summary>
+            Information of StudentsController
+            CreatedBy: MinhVN(24/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.StudentsController.#ctor(VnEdu.Core.Interfaces.IRepositories.IStudentRepository,VnEdu.Core.Interfaces.IServices.IStudentService)">
+            <summary>
+            StudentsController
+            </summary>
+            <param name="studentRepository">studentRepository</param>
+            <param name="studentService">studentService</param>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.StudentsController.GetAllStudents">
+            <summary>
+            GetAllStudents
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.StudentsController.GetPagingStudent(System.String,System.Int32,System.Int32)">
+            <summary>
+            GetPagingStudent
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.StudentsController.GetStudentById(System.Int32)">
+            <summary>
+            GetStudentById
+            </summary>
+            <param name="id">Id</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.StudentsController.GetInformationByPhonenumber(System.String)">
+            <summary>
+            GetInformationByPhonenumber
+            </summary>
+            <param name="phoneNumber">PhoneNumber</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.StudentsController.GetInformationByEmail(System.String)">
+            <summary>
+            GetInformationByEmail
+            </summary>
+            <param name="email">email</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.StudentsController.CreateStudent(VnEdu.Api.Contracts.Student.Request.StudentCreate)">
+            <summary>
+            CreateStudent
+            </summary>
+            <param name="studentCreate">StudentCreate</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.StudentsController.UpdateStudent(System.Int32,VnEdu.Api.Contracts.Student.Request.StudentUpdate)">
+            <summary>
+            UpdateStudent
+            </summary>
+            <param name="id">Id</param>
+            <param name="studentUpdate">StudentUpdate</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.StudentsController.DeleteStudent(System.Int32)">
+            <summary>
+            DeleteStudent
+            </summary>
+            <param name="id">Id</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="T:VnEdu.Api.Controllers.Student_ClasssController">
+            <summary>
+            Information of Student_ClasssController
+            CreatedBy: MinhVN(25/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Student_ClasssController.#ctor(VnEdu.Core.Interfaces.IRepositories.IStudent_ClassRepository,VnEdu.Core.Interfaces.IServices.IStudent_ClassService)">
+            <summary>
+            Student_ClasssController
+            </summary>
+            <param name="student_ClassRepository">student_ClassRepository</param>
+            <param name="student_ClassService">student_ClassService</param>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Student_ClasssController.GetByClassSemesterSchooYear(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            GetByClassSemesterSchooYear
+            </summary>
+            <param name="schoolYearId">SchoolYearId</param>
+            <param name="semesterId">SemesterId</param>
+            <param name="classId">ClassId</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(25/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Student_ClasssController.GetPagingStudentClassByClassSemesterSchooYear(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32)">
+            <summary>
+            GetPagingStudentClassByClassSemesterSchooYear
+            </summary>
+            <param name="schoolYearId">SchoolYearId</param>
+            <param name="semesterId">SemesterId</param>
+            <param name="classId">ClassId</param>
+            <param name="valueFilter">ValueFilter</param>
+            <param name="pageIndex">PageIndex</param>
+            <param name="pageSize">PageSize</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(25/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Student_ClasssController.GetClassByStudentSchooYearSemester(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            GetClassByStudentSchooYearSemester
+            </summary>
+            <param name="studentId">StudentId</param>
+            <param name="schoolYearId">SchoolYearId</param>
+            <param name="semesterId">SemesterId</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(25/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Student_ClasssController.CreateStudent_Class(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            CreateStudent_Class
+            </summary>
+            <param name="studentId">StudentId</param>
+            <param name="classId">ClassId</param>
+            <param name="semesterId">SemesterId</param>
+            <param name="schoolYearId">SchoolYearId</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(25/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Student_ClasssController.DeleteStudent_Class(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Delete a record
+            </summary>
+            <param name="studentId">StudentId</param>
+            <param name="classId">ClassId</param>
+            <param name="semesterId">SemesterId</param>
+            <param name="schoolYearId">SchoolYearId</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(25/12/2022)
+        </member>
+        <member name="T:VnEdu.Api.Controllers.Student_SubjectsController">
+            <summary>
+            Information of Student_SubjectsController
+            CreatedBy: MinhVN(02/01/2023)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Student_SubjectsController.#ctor(VnEdu.Core.Interfaces.IRepositories.IStudent_SubjectRepository,VnEdu.Core.Interfaces.IServices.IStudent_SubjectService)">
+            <summary>
+            Student_SubjectsController
+            </summary>
+            <param name="student_SubjectRepository">student_SubjectRepository</param>
+            <param name="student_SubjectService">student_SubjectService</param>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Student_SubjectsController.GetBySubjectSemesterSchooYearClass(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            GetBySubjectSemesterSchooYearClass
+            </summary>
+            <param name="studentId">StudentId</param>
+            <param name="semesterId">SemesterId</param>
+            <param name="schoolYearId">SchoolYearId</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(02/01/2023)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Student_SubjectsController.GetScoreByStudent(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            GetScoreByStudent
+            </summary>
+            <param name="schoolYearId">SchoolYearId</param>
+            <param name="semesterId">SemesterId</param>
+            <param name="studentId">StudentId</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(02/01/2023)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Student_SubjectsController.GetPagingStudentSubjectBySchoolYearSemesterSubject(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32)">
+            <summary>
+            GetPagingStudentSubjectBySchoolYearSemesterSubject
+            </summary>
+            <param name="schoolYearId">SchoolYearId</param>
+            <param name="semesterId">SemesterId</param>
+            <param name="subjectId">SubjectId</param>
+            <param name="classId">ClassId</param>
+            <param name="valueFilter">ValueFilter</param>
+            <param name="pageIndex">PageIndex</param>
+            <param name="pageSize">PageSize</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(02/01/2023)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Student_SubjectsController.CreateStudent_Subject(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            CreateStudent_Subject
+            </summary>
+            <param name="studentId">StudentId</param>
+            <param name="subjectId">SubjectId</param>
+            <param name="semesterId">SemesterId</param>
+            <param name="schoolYearId">SchoolYearId</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(02/01/2023)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Student_SubjectsController.DeleteStudent_Subject(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            DeleteStudent_Subject
+            </summary>
+            <param name="studentId">StudentId</param>
+            <param name="subjectId">SubjectId</param>
+            <param name="semesterId">SemesterId</param>
+            <param name="schoolYearId">SchoolYearId</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(02/01/2023)
+        </member>
+        <member name="T:VnEdu.Api.Controllers.SubjectsController">
+            <summary>
+            Information of SubjectsController
+            CreatedBy: MinhVN(23/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SubjectsController.#ctor(VnEdu.Core.Interfaces.IRepositories.ISubjectRepository,VnEdu.Core.Interfaces.IServices.ISubjectService)">
+            <summary>
+            SubjectsController
+            </summary>
+            <param name="subjectRepository">subjectRepository</param>
+            <param name="subjectService">subjectService</param>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SubjectsController.GetAllSubjects">
+            <summary>
+            GetAllSubjects
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SubjectsController.GetPagingSubject(System.String,System.Int32,System.Int32)">
+            <summary>
+            GetPagingSubject
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SubjectsController.GetSubjectById(System.Int32)">
+            <summary>
+            GetSubjectById
+            </summary>
+            <param name="id">Id</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SubjectsController.CreateSubject(VnEdu.Api.Contracts.Subject.Request.SubjectCreate)">
+            <summary>
+            CreateSubject
+            </summary>
+            <param name="subjectCreate">Subject</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SubjectsController.UpdateSubject(System.Int32,VnEdu.Api.Contracts.Subject.Request.SubjectUpdate)">
+            <summary>
+            UpdateSubject
+            </summary>
+            <param name="id">Id</param>
+            <param name="subjectUpdate">Subject</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.SubjectsController.DeleteSubject(System.Int32)">
+            <summary>
+            DeleteSubject
+            </summary>
+            <param name="id">Id</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(22/12/2022)
+        </member>
+        <member name="T:VnEdu.Api.Controllers.TeachersController">
+            <summary>
+            Information of TeachersController
+            CreatedBy: MinhVN(24/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.TeachersController.#ctor(VnEdu.Core.Interfaces.IRepositories.ITeacherRepository,VnEdu.Core.Interfaces.IServices.ITeacherService)">
+            <summary>
+            TeachersController
+            </summary>
+            <param name="teacherRepository">teacherRepository</param>
+            <param name="teacherService">teacherService</param>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.TeachersController.GetAllTeachers">
+            <summary>
+            GetAllTeachers
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.TeachersController.GetPagingTeacher(System.String,System.Int32,System.Int32)">
+            <summary>
+            GetPagingTeacher
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.TeachersController.GetTeacherById(System.Int32)">
+            <summary>
+            GetTeacherById
+            </summary>
+            <param name="id">Id</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.TeachersController.GetInformationByPhonenumber(System.String)">
+            <summary>
+            GetInformationByPhonenumber
+            </summary>
+            <param name="phoneNumber">PhoneNumber</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.TeachersController.GetInformationByEmail(System.String)">
+            <summary>
+            GetInformationByEmail
+            </summary>
+            <param name="email">email</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.TeachersController.CreateTeacher(VnEdu.Api.Contracts.Teacher.Request.TeacherCreate)">
+            <summary>
+            CreateTeacher
+            </summary>
+            <param name="teacherCreate">TeacherCreate</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.TeachersController.UpdateTeacher(System.Int32,VnEdu.Api.Contracts.Teacher.Request.TeacherUpdate)">
+            <summary>
+            UpdateTeacher
+            </summary>
+            <param name="id">Id</param>
+            <param name="teacherUpdate">TeacherUpdate</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.TeachersController.DeleteTeacher(System.Int32)">
+            <summary>
+            DeleteTeacher
+            </summary>
+            <param name="id">Id</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="T:VnEdu.Api.Controllers.Teacher_ClasssController">
+            <summary>
+            Information of Teacher_ClasssController
+            CreatedBy: MinhVN(03/01/2023)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Teacher_ClasssController.#ctor(VnEdu.Core.Interfaces.IRepositories.ITeacher_ClassRepository,VnEdu.Core.Interfaces.IServices.ITeacher_ClassService)">
+            <summary>
+            Teacher_ClasssController
+            </summary>
+            <param name="teacher_ClassRepository">teacher_ClassRepository</param>
+            <param name="teacher_ClassService">teacher_ClassService</param>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Teacher_ClasssController.GetByClassSemesterSchooYear(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            GetByClassSemesterSchooYear
+            </summary>
+            <param name="schoolYearId">SchoolYearId</param>
+            <param name="semesterId">SemesterId</param>
+            <param name="classId">ClassId</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(03/01/2023)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Teacher_ClasssController.GetPagingTeacherClassByClassSemesterSchoolYear(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32)">
+            <summary>
+            GetPagingTeacherClassByClassSemesterSchoolYear
+            </summary>
+            <param name="schoolYearId">SchoolYearId</param>
+            <param name="semesterId">SemesterId</param>
+            <param name="classId">ClassId</param>
+            <param name="valueFilter">ValueFilter</param>
+            <param name="pageIndex">PageIndex</param>
+            <param name="pageSize">PageSize</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(03/01/2023)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Teacher_ClasssController.CreateTeacher_Class(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            CreateTeacher_Class
+            </summary>
+            <param name="teacherId">TeacherId</param>
+            <param name="classId">ClassId</param>
+            <param name="semesterId">SemesterId</param>
+            <param name="schoolYearId">SchoolYearId</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(03/01/2023)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Teacher_ClasssController.DeleteTeacher_Class(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            DeleteTeacher_Class
+            </summary>
+            <param name="teacherId">TeacherId</param>
+            <param name="classId">ClassId</param>
+            <param name="semesterId">SemesterId</param>
+            <param name="schoolYearId">SchoolYearId</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(04/01/2023)
+        </member>
+        <member name="T:VnEdu.Api.Controllers.Teacher_SubjectsController">
+            <summary>
+            Information of Teacher_SubjectsController
+            CreatedBy: MinhVN(04/01/2023)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Teacher_SubjectsController.#ctor(VnEdu.Core.Interfaces.IRepositories.ITeacher_SubjectRepository,VnEdu.Core.Interfaces.IServices.ITeacher_SubjectService)">
+            <summary>
+            Teacher_SubjectsController
+            </summary>
+            <param name="teacher_SubjectRepository">teacher_SubjectRepository</param>
+            <param name="teacher_SubjectService">teacher_SubjectService</param>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Teacher_SubjectsController.GetBySubjectSemesterSchooYear(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            GetBySubjectSemesterSchooYear
+            </summary>
+            <param name="schoolYearId">SchoolYearId</param>
+            <param name="semesterId">SemesterId</param>
+            <param name="subjectId">SubjectId</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(04/01/2023)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Teacher_SubjectsController.GetPagingTeacherSubjectByClassSemesterSchoolYear(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32)">
+            <summary>
+            GetPagingTeacherSubjectByClassSemesterSchoolYear
+            </summary>
+            <param name="schoolYearId">SchoolYearId</param>
+            <param name="semesterId">SemesterId</param>
+            <param name="subjectId">SubjectId</param>
+            <param name="valueFilter">ValueFilter</param>
+            <param name="pageIndex">PageIndex</param>
+            <param name="pageSize">PageSize</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(04/01/2023)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Teacher_SubjectsController.CreateTeacher_Subject(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            CreateTeacher_Subject
+            </summary>
+            <param name="teacherId">TeacherId</param>
+            <param name="subjectId">SubjectId</param>
+            <param name="semesterId">SemesterId</param>
+            <param name="schoolYearId">SchoolYearId</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(04/01/2023)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.Teacher_SubjectsController.DeleteTeacher_Subject(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            DeleteTeacher_Subject
+            </summary>
+            <param name="teacherId">TeacherId</param>
+            <param name="subjectId">SubjectId</param>
+            <param name="semesterId">SemesterId</param>
+            <param name="schoolYearId">SchoolYearId</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(04/01/2023)
+        </member>
+        <member name="T:VnEdu.Api.Controllers.UsersController">
+            <summary>
+            Information of UsersController
+            CreatedBy: MinhVN(22/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.UsersController.#ctor(VnEdu.Core.Interfaces.IRepositories.IUserRepository,VnEdu.Core.Interfaces.IServices.IUserService)">
+            <summary>
+            UsersController
+            </summary>
+            <param name="userRepository">userRepository</param>
+            <param name="userService">userService</param>
+        </member>
+        <member name="M:VnEdu.Api.Controllers.UsersController.GetAllUsers">
+            <summary>
+            GetAllUsers
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(22/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.UsersController.GetPagingUser(System.String,System.Int32,System.Int32)">
+            <summary>
+            GetPagingUser
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(22/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.UsersController.GetUserById(System.Int32)">
+            <summary>
+            GetUserById
+            </summary>
+            <param name="id">Id</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(22/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.UsersController.GetUserById">
+            <summary>
+            GetUserById
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(22/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.UsersController.UpdateUser(System.Int32,VnEdu.Api.Contracts.User.Request.UserUpdate)">
+            <summary>
+            UpdateUser
+            </summary>
+            <param name="id">Id</param>
+            <param name="userUpdate">User</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(22/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.UsersController.UpdatePassword(System.Int32,VnEdu.Api.Contracts.User.Request.UserUpdatePassword)">
+            <summary>
+            UpdatePassword
+            </summary>
+            <param name="id">Id</param>
+            <param name="userUpdatePassword">UserUpdatePassword</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(22/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.UsersController.DeleteUser(System.Int32)">
+            <summary>
+            DeleteUser
+            </summary>
+            <param name="id">Id</param>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(22/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Controllers.UsersController.GetUserByIdPassword(VnEdu.Api.Contracts.User.Request.UserUpdatePassword)">
+            <summary>
+            GetUserByIdPassword
+            </summary>
+            <returns>IActionResult</returns>
+            CreatedBy: MinhVN(11/01/2023)
+        </member>
+        <member name="T:VnEdu.Api.Extensions.HttpContextExtension">
+            <summary>
+            Information of HttpContextExtension
+            CreatedBy: MinhVN(23/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Extensions.HttpContextExtension.GetUserNameClaimValue(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            GetUserNameClaimValue
+            </summary>
+            <param name="context">HttpContext</param>
+            <returns>string</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Extensions.HttpContextExtension.GetUserIdClaimValue(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            GetUserIdClaimValue
+            </summary>
+            <param name="context">HttpContext</param>
+            <returns>string</returns>
+            CreatedBy: MinhVN(06/01/2022)
+        </member>
+        <member name="M:VnEdu.Api.Extensions.HttpContextExtension.GetNameClaimValue(System.String,Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            GetNameClaimValue
+            </summary>
+            <param name="key">Key</param>
+            <param name="context">HttpContext</param>
+            <returns>string</returns>
+            CreatedBy: MinhVN(23/12/2022)
+        </member>
+        <member name="T:VnEdu.Api.Extensions.RegistrarExtension">
+            <summary>
+            Information of RegistrarExtension
+            CreatedBy: MinhVN(20/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Extensions.RegistrarExtension.RegisterServices(Microsoft.AspNetCore.Builder.WebApplicationBuilder,System.Type)">
+            <summary>
+            RegisterServices
+            </summary>
+            <param name="builder">Builder</param>
+            <param name="scanningType">Type</param>
+            CreatedBy: MinhVN(20/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Extensions.RegistrarExtension.RegisterPipelineComponents(Microsoft.AspNetCore.Builder.WebApplication,System.Type)">
+            <summary>
+            RegisterPipelineComponents
+            </summary>
+            <param name="app">App</param>
+            <param name="scanningType">Type</param>
+            CreatedBy: MinhVN(20/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Extensions.RegistrarExtension.GetRegistrars``1(System.Type)">
+            <summary>
+            GetRegistrars
+            </summary>
+            <typeparam name="T">T</typeparam>
+            <param name="scanningType">Type</param>
+            <returns>List T</returns>
+            CreatedBy: MinhVN(20/12/2022)
+        </member>
+        <member name="T:VnEdu.Api.Filters.VnEduExceptionAttribute">
+            <summary>
+            Information of VnEduExceptionAttibute
+            CreatedBy: MinhVN(24/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Filters.VnEduExceptionAttribute.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            OnException
+            </summary>
+            <param name="context">ExceptionContext</param>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="T:VnEdu.Api.Options.ConfiguraSwagerOption">
+            <summary>
+            Information of ConfiguraSwagerOption
+            CreatedBy: MinhVN(20/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Options.ConfiguraSwagerOption.Configure(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions)">
+            <summary>
+            Configure
+            </summary>
+            <param name="options">Options</param>
+            CreatedBy: MinhVN(20/12/2022)
+        </member>
+        <member name="M:VnEdu.Api.Options.ConfiguraSwagerOption.GetJwtSecuritySchema">
+            <summary>
+            GetJwtSecuritySchema
+            </summary>
+            <returns>OpenApiSecurityScheme</returns>
+            CreatedBy: MinhVN(20/12/2022)
+        </member>
+        <member name="T:VnEdu.Api.Registrars.DbRegistrar">
+            <summary>
+            Information of DbRegistrar
+            CreatedBy: MinhVN(24/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Registrars.DbRegistrar.RegisterServices(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+            <summary>
+            RegisterServices
+            </summary>
+            <param name="builder">WebApplicationBuilder</param>
+            CreatedBy: MinhVN(24/12/2022)
+        </member>
+        <member name="T:VnEdu.Api.Registrars.IdentityRegistrar">
+            <summary>
+            Information off IdentityRegistrar
+            CreatedBy: MinhVN(20/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Registrars.IdentityRegistrar.RegisterServices(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+            <summary>
+            RegisterServices
+            </summary>
+            <param name="builder">Builder</param>
+            CreatedBy: MinhVN(20/12/2022)
+        </member>
+        <member name="T:VnEdu.Api.Registrars.IRegistrar">
+            <summary>
+            Information of interface IRegistrar
+            CreatedBy: MinhVN(20/12/2022)
+            </summary>
+        </member>
+        <member name="T:VnEdu.Api.Registrars.IWebApplicationBuilderRegistrar">
+            <summary>
+            Information of interface IWebApplicationBuilderRegistrar
+            CreatedBy: MinhVN(20/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Registrars.IWebApplicationBuilderRegistrar.RegisterServices(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+            <summary>
+            RegisterServices
+            </summary>
+            <param name="builder">Builder</param>
+            CreatedBy: MinhVN(20/12/2022)
+        </member>
+        <member name="T:VnEdu.Api.Registrars.IWebApplicationRegistrar">
+            <summary>
+            Information of interface IWebApplicationRegistrar
+            CreatedBy: MinhVN(20/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Registrars.IWebApplicationRegistrar.RegisterPipelineConponents(Microsoft.AspNetCore.Builder.WebApplication)">
+            <summary>
+            RegisterPipelineConponents
+            </summary>
+            <param name="app">App</param>
+            CreatedBy: MinhVN(20/12/2022)
+        </member>
+        <member name="T:VnEdu.Api.Registrars.RepositoryRegistrar">
+            <summary>
+            Information of RepositoryRegistrar
+            CreatedBy: MinhVN(21/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Registrars.RepositoryRegistrar.RegisterServices(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+            <summary>
+            RegisterServices
+            </summary>
+            <param name="builder">WebApplicationBuilder</param>
+        </member>
+        <member name="T:VnEdu.Api.Registrars.ServiceRegistrar">
+            <summary>
+            Information of ServiceRegistrar
+            CreatedBy: MinhVN(21/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Registrars.ServiceRegistrar.RegisterServices(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+            <summary>
+            RegisterServices
+            </summary>
+            <param name="builder">WebApplicationBuilder</param>
+        </member>
+        <member name="T:VnEdu.Api.Registrars.WebApplicationBuilderRegistrar">
+            <summary>
+            Information of WebApplicationBuilderRegistrar
+            CreatedBy: MinhVN(24/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Registrars.WebApplicationBuilderRegistrar.RegisterServices(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+            <summary>
+            RegisterServices
+            </summary>
+            <param name="builder">WebApplicationBuilder</param>
+        </member>
+        <member name="T:VnEdu.Api.Registrars.WebApplicationRegistrar">
+            <summary>
+            Information of WebApplicationRegistrar
+            CreatedBy: MinhVN(24/12/2022)
+            </summary>
+        </member>
+        <member name="M:VnEdu.Api.Registrars.WebApplicationRegistrar.RegisterPipelineConponents(Microsoft.AspNetCore.Builder.WebApplication)">
+            <summary>
+            RegisterPipelineConponents
+            </summary>
+            <param name="app">WebApplication</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,54 @@
+.box-student-combobox {
+    width: calc(100% - 150px);
+    margin: 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.box-student-input {
+    height: 38px;
+    font-weight: 500;
+}
+
+.box-student-select {
+    height: 38px;
+}
+
+.icon-down {
+    width: 16px;
+    height: 16px;
+    background-image: url(../../assets/icon.svg);
+    background-position: -896px -360px;
+}
+
+.box-item-student {
+    border: 1px solid #ccc;
+    top: 44px;
+    z-index: 2;
+}
+
+.item-student {
+    font-weight: 500;
+}
+
+.type-2 {
+    height: 84px;
+    overflow: auto;
+}
+
+.type-2::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.type-2::-webkit-scrollbar-track {
+    background-color: #ddd;
+}
+
+.type-2::-webkit-scrollbar-thumb {
+    background-color: #bbb;
+}
+
+.type-2::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(44, 43, 43);
+}

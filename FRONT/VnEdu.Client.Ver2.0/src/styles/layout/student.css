@@ -1,0 +1,54 @@
+.input-student {
+    width: 350px;
+    border: none;
+}
+
+.box-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-excel {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-left-filter {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-filter-item {
+    top: 45px;
+    z-index: 3;
+}
+
+.icon-filter {
+    width: 24px;
+    height: 24px;
+    background-image: url(../../assets/icon.svg);
+    background-position: -1600px -144px;
+}
+
+.filter-class {
+    height: 245px;
+    overflow: auto;
+}
+
+.filter-class::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.filter-class::-webkit-scrollbar-track {
+    background-color: #ddd;
+}
+
+.filter-class::-webkit-scrollbar-thumb {
+    background-color: #bbb;
+}
+
+.filter-class::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(44, 43, 43);
+}

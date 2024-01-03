@@ -1,0 +1,135 @@
+.t-login {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/images/backgroud_login.jpg);
+    background-size: 100% 100%;
+}
+
+.login-opacity {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0200004d;
+}
+
+.box-login {
+    width: 400px;
+    height: 420px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    animation: box-toast 1s linear;
+}
+
+.login-top {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.logo-login {
+    width: 72px;
+    height: 80px;
+    background-image: url(../../assets/images/vnedu-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box-pass-user {
+    position: relative;
+}
+
+.box-input {
+    width: 336px;
+    height: 48px;
+    margin: 0px 16px 8px 16px;
+    border: 1px solid #e0e5e9;
+    border-radius: 3px;
+    outline: none;
+    padding: 16px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.box-input:focus {
+    border: 1px solid #0073e6;
+}
+
+.icon-eye {
+    width: 22px;
+    height: 16px;
+    background-image: url(../../assets/icon.svg);
+    background-position: -1606px -408px;
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    cursor: pointer;
+}
+
+.hide-password {
+    width: 22px;
+    height: 16px;
+    background-image: url(../../assets/icon.svg);
+    background-position: -1651px -408px;
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    cursor: pointer;
+}
+
+.box-forgot-password {
+    height: 48px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    margin: 0px 16px;
+    line-height: 40px;
+}
+
+.link-forgot-password {
+    font-size: 14px;
+    color: #0073e6;
+    cursor: pointer;
+}
+
+.btn-login {
+    margin: 0px 16px;
+    border: none;
+    height: 48px;
+    box-sizing: border-box;
+    background-color: #0073e6;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.btn-login:hover {
+    background-color: #2196f3;
+}
+
+.title-copyright {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 8px;
+    color: #fff;
+}
+
+@keyframes box-toast {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
