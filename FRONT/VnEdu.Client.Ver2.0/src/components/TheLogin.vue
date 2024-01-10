@@ -23,7 +23,7 @@
                     </div>
                 </button>
             </div>
-            <div class="title-copyright">Copyright © 2022 - 2023 VNEDU</div>
+            <div class="title-copyright">Copyright © 2023 - 2024 VNEDU</div>
         </div>
         <form-waning></form-waning>
         <toast-message></toast-message>

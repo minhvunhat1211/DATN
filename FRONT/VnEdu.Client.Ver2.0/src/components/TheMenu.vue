@@ -59,6 +59,12 @@
                     <div class="bottom-name">Tra cứu điểm</div>
                 </div>
             </router-link>
+            <router-link style="text-decoration: none;" to="/chat">
+                <div class="bottom">
+                    <div class="bottom-logo point-lookup"></div>
+                    <div class="bottom-name">Hỏi đáp</div>
+                </div>
+            </router-link>
             <router-link style="text-decoration: none;" to="/changepassword">
                 <div class="bottom">
                     <div class="bottom-logo forgot-password"></div>
