@@ -18,6 +18,7 @@
 @import url(../layout/studentinfor.css);
 @import url(../layout/studentclass.css);
 @import url(../layout/paging.css);
+@import url(../layout/chat.css);
 body {
     margin: 0px;
     font-family: notosans;

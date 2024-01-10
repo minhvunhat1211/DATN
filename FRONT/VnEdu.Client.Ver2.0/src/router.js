@@ -9,6 +9,7 @@ import Semester from './views/semester/Semester.vue';
 import Subject from './views/subject/Subject.vue';
 import Decentralization from './views/decentralization/Decentralization.vue';
 import Class from './views/class/Class.vue';
+import Chat from './views/Chat/Chat.vue'
 import User from './views/user/User.vue';
 import Student from './views/student/Student.vue';
 import Teacher from './views/teacher/Teacher.vue';
@@ -44,6 +45,7 @@ const routes = [{
             { path: '/semester', component: Semester },
             { path: '/subject', component: Subject },
             { path: '/class', component: Class },
+            { path: '/chat', component: Chat },
             { path: '/user', component: User },
             { path: '/student', component: Student },
             { path: '/teacher', component: Teacher },

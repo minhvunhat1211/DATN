@@ -183,5 +183,15 @@ namespace VnEdu.Api.Controllers
 
             return Ok(result);
         }
+        [HttpPost]
+        [Route("QnA")]
+        [AllowAnonymous]
+
+        public async Task<IActionResult> Chat(string question)
+        {
+            var result = await _studentService.Chat(question);
+
+            return Ok(result);
+        }
     }
 }

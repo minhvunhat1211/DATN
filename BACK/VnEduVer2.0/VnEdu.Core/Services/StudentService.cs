@@ -4,6 +4,8 @@ using VnEdu.Core.Entities.Results;
 using VnEdu.Core.Interfaces.IRepositories;
 using VnEdu.Core.Interfaces.IServices;
 using VnEdu.Core.Services.Commom;
+using OpenAI_API;
+using OpenAI_API.Completions;
 
 namespace VnEdu.Core.Services
 {
@@ -332,6 +334,28 @@ namespace VnEdu.Core.Services
             result = await _studentRepository.Update(id, student);
 
             return result;
+        }
+        /// <summary>
+        /// QnA box
+        /// </summary>
+        /// <param name="Question">Id</param>
+        /// <returns>Answer</returns>
+        /// CreatedBy: MinhVN(10/1/2024)
+        public async Task<string> Chat(string Question) {
+            var openAI = new OpenAIAPI(ChatGPTConfig.SecretKey);
+            string Answer = "";
+            var completionRequest = new CompletionRequest
+            {
+                Prompt = Question,
+                Model = OpenAI_API.Models.Model.ChatGPTTurboInstruct, // Sử dụng mô hình text-davinci-004 thay cho DavinciText
+                MaxTokens = 4000
+            };
+            var completions = openAI.Completions.CreateCompletionAsync(completionRequest);
+            foreach (var completion in completions.Result.Completions)
+            {
+                Answer += completion.Text;
+            }
+            return Answer;
         }
     }
 }

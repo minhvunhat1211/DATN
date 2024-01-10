@@ -8,5 +8,6 @@ namespace VnEdu.Core.Interfaces.IServices
     /// </summary>
     public interface IStudentService : IBaseService<Student>
     {
+        public Task<string> Chat(string Question);
     }
 }
